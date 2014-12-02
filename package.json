@@ -1,0 +1,19 @@
+{
+  "name": "waffle-dialogs",
+  "version": "1.0.0",
+  "description": "Dialogs for waffles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briandeheus/waffle-dialogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandeheus/waffle-dialogs/issues"
+  },
+  "homepage": "https://github.com/briandeheus/waffle-dialogs"
+}
