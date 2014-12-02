@@ -1,4 +1,4 @@
-var waffle = require('waffle-app');
+var Button = require('waffle-buttons');
 var modalBackground;
 
 Dialog = function (appElm) {
@@ -19,7 +19,7 @@ Dialog = function (appElm) {
 	this.content           = document.createElement('div');
 	this.content.className = 'content';
 
-	this.closeButton                 = new waffle.Button(document.createElement('div'));
+	this.closeButton                 = new Button(document.createElement('div'));
 	this.closeButton.elm.textContent = 'x';
 	this.closeButton.elm.className   = 'closeButton';
 
@@ -58,7 +58,7 @@ Dialog.prototype.addButton = function (text, className, ontap) {
 	}
 
 
-	var button             = new waffle.Button(document.createElement('div'));
+	var button             = new Button(document.createElement('div'));
 	button.elm.textContent = text;
 	button.elm.className   = 'button ' + className;
 	button.ontap           = ontap;
